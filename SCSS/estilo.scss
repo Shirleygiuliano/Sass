@@ -1,221 +1,140 @@
 
-body {
-    background-color: #212121;
-
-}
-
 /* color para el fondo */
-* {
-    padding: 0.25%;
-    margin: 0.22%;
-}
-/* TITULO */
-.padre1 {
-    font-size: 4rem;
-    background: rgb(75,11,11);
-background: linear-gradient(180deg, rgba(75,11,11,1) 66%, rgba(33,33,33,1) 80%);
-    height: 150px;
-    width: 1458px;
+
+body, .padre1 {
+    background-color: #212121;
+  }
+  
+  .ancla {
+    text-decoration: solid;
+    font-size: medium;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: space-between
-}
-.logo{
-    border-radius: 200px;
-    justify-content: left;
-    
-}
-.instagram{
-    justify-content: space-around;
-}
-
-/* BOTONES DE MENU */
-.padre2 {
-
-    display: flex;
-    justify-content: space-evenly;
-    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* TITULO */
+  
+  .padre1, .navbar-expand-lg .bg-light {
+    background-color: linear-gradient(180deg, rgb(163, 141, 141) 6%, rgba(33, 33, 33, 1) 50%);
+  }
+  
+  /* BOTONES DE MENU */
+  
+  .padre2, .row {
     list-style: none;
-}
-.novedades {
-    background-color: #A32020;
-    height: 25px;
-    width: 205px;
-    border: #AA2D2D solid;
+  }
+  
+  .mb-3 {
+    height: 40px;
+    width: 540px;
+  }
+  
+  .novedades, col {
+    background-color: $color-masusado;
     border-radius: 4px;
-}
-.noticias {
-    background-color: #A32020;
-    height: 25px;
-    width: 205px;
-    border: #AA2D2D solid;
+    height: 40px;
+    width: 20px;
+  }
+  
+  .noticias, col, .recomendados, col, .estrenos, col, .nosotros, col {
+    background-color: $color-masusado;
     border-radius: 4px;
-}
-.recomendados {
-    background-color: #A32020;
-    height: 25px;
-    width: 205px;
-    border: #AA2D2D solid;
-    border-radius: 4px;
-}
-.estrenos {
-    background-color: #A32020;
-    height: 25px;
-    width: 205px;
-    border: #AA2D2D solid;
-    border-radius: 4px;
-}
-.nosotros {
-    background-color: #A32020;
-    height: 25px;
-    width: 205px;
-    border: #AA2D2D solid;
-    border-radius: 4px;
-}
-
-/* PORTADA*/
-.imgporta:hover {
-    display: flex;
-    justify-content: center;
-    height: 1000px;
-    width: 1400px;
+  }
+  
+  /* PORTADA*/
+  
+  .fotito:hover, text-center, img-fluid {
     border-radius: 20px;
     filter: grayscale(70%);
-}
-.imgporta {
-    transition: all 0,5s;
-}
-/* Tarjetas*/
-.tarjetas {
+  }
+  
+  .fotito:hover, text-center, img-fluid {
+    transition: all 0, 5s;
+  }
+  
+  /* Tarjetas*/
+  
+  .tarjetas {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-family: Arial, Helvetica, sans-serif;
-}
-.barbie {
-    background:linear-gradient(#A32020, #212121); 
+  }
+  
+  .barbie, .buss, .stranger, .thor, .black, .marvel {
+    background: linear-gradient( $color-masusado, #212121);
     height: 280px;
     width: 265px;
     border-radius: 20px;
-}
-.buss {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 265px;
-    border-radius: 20px;
-}
-.stranger {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 265px;
-    border-radius: 20px;
-}
-
-/*segundas tarjetas*/
-.thor {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 265px;
-    border-radius: 20px;
-}
-.black {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 265px;
-    border-radius: 20px;
-}
-.marvel {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 265px;
-    border-radius: 20px;
-}
-
-h2{
-    margin: auto;
-}
-/* caja de footer*/
-.bajada {
+  }
+  
+  /*segundas tarjetas*/
+  
+  h2 {
+    color: white;
+  }
+  
+  /* caja de footer*/
+  
+  footer {
     background-color: #3C2323;
-    height: 380px;
-    width: 1460px;
-}
-
-/* subcripcion */
-
-.suscrip {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    
-}
-
-.suscribite {
-    background-color: #BB1E1E;
-    height: 40px;
-    width: 200px;
-    border-radius: 8px;
-}
-
-.email {
-    background-color: rgb(216, 219, 221);
-    backface-visibility: initial;
-    height: 40px;
-    width: 200px;
-    border-radius: 8px;
-    justify-content: center;
-}
-
-hr {
+  }
+  
+  /* subcripcion */
+  
+  .container-fluid, .bajo, .button {
+    color: #3C2323;
+  }
+  
+  hr {
     background-color: #737373;
     border: #737373 solid;
     height: 0px;
-}
-
-/* CONTACTOS*/
-.presenta {
+  }
+  
+  /* CONTACTOS*/
+  
+  .presenta {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-
-}
-h1 {
+  }
+  
+  h1 {
     display: flex;
     justify-content: center;
-}
-
-
-.caja1 {
-    background: rgb(153,107,107);
-    background: linear-gradient(180deg, rgba(153,107,107,1) 44%, rgba(33,33,33,1) 100%);
+  }
+  
+  .caja1 {
+    background: rgb(153, 107, 107);
+    background: linear-gradient(180deg, rgba(153, 107, 107, 1) 44%, rgba(33, 33, 33, 1) 100%);
     height: 200px;
     width: 600px;
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
-}
-.nombre {
+  }
+  
+  .nombre {
     background-color: rgb(216, 219, 221);
     backface-visibility: initial;
     height: 40px;
     width: 200px;
     border-radius: 8px;
     justify-content: center;
-}
-
-.envi {
+  }
+  
+  .envi {
     background-color: #DFB520;
     backface-visibility: initial;
     height: 40px;
     width: 200px;
     border-radius: 8px;
     justify-content: center;
-}
-
-.preguntas {
+  }
+  
+  .preguntas {
     background-color: rgb(216, 219, 221);
     backface-visibility: initial;
     height: 40px;
@@ -223,178 +142,91 @@ h1 {
     border-radius: 8px;
     display: flex;
     justify-content: center;
-}
-
-iframe {
+  }
+  
+  iframe {
     display: flex;
     justify-content: center;
-}
-
-/* TARJETAS DE ESTRENOS*/
-.minio {
-    background:linear-gradient(#A32020, #212121); 
+  }
+  
+  /* TARJETAS DE ESTRENOS*/
+  
+  .minio, .only, .anillo, .thorr, .lista, .strange {
+    background: linear-gradient( $color-masusado, #212121);
     height: 280px;
     width: 365px;
     border-radius: 20px;
-}
-.only {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.anillo {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.thorr {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.lista {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.strange {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.superior {
+  }
+  
+  .superior {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-iframe{
+  }
+  
+  iframe {
     width: 98%;
     justify-content: center;
-}
-
-/* TARJETAS DE RECOMENDADOS*/
-
-.corea {
-    background:linear-gradient(#A32020, #212121); 
+  }
+  
+  /* TARJETAS DE RECOMENDADOS*/
+  
+  .corea, .hbo, .estafa, .hbom, .suse, .cosso {
+    background: linear-gradient( $color-masusado, #212121);
     height: 280px;
     width: 365px;
     border-radius: 20px;
-}
-.hbo {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.estafa {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.hbom {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.suse {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.cosso {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.superior {
+  }
+  
+  .superior {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-/* TARJETAS DE NOTICIAS*/
-
-.spenc {
-    background:linear-gradient(#A32020, #212121); 
+  }
+  
+  /* TARJETAS DE NOTICIAS*/
+  
+  .spenc, .crista, .mue, .cmo, .xx, .our {
+    background: linear-gradient( $color-masusado, #212121);
     height: 280px;
     width: 365px;
     border-radius: 20px;
-}
-.crista {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.mue {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.cmo {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.xx {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.our {
-    background:linear-gradient(#A32020, #212121); 
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-}
-.nave ul li {
+  }
+  
+  .nave ul li {
     list-style-type: none;
     margin: 0 20px;
-}
-
-
-ul li a {
+  }
+  
+  ul li a {
     text-decoration: none;
     color: white;
     display: flex;
     justify-content: center;
-}
-
-ul li a:hover {
-    text-decoration: none;
-    color: red;
-}
-main .tarjetas, img p {
+  
+    &:hover {
+      text-decoration: none;
+      color: red;
+    }
+  }
+  
+  main .tarjetas, img p {
     display: flex;
-    justify-content: space-between (0, 0, 2, 8);
-}
-
-.fotito:hover {
-    background-color: #737373;
-}
-
-@keyframes cine {
+    justify-content: space-between (0,0,2,8);
+  }
+  
+  @keyframes cine {
     0% {
-        opacity: 0;
+      opacity: 0;
     }
+  
     100% {
-        opacity: 100%;
+      opacity: 100%;
     }
-}
-
-.padre1, .cine {
+  }
+  
+  .padre1 .row {
     animation-name: cine;
     animation-duration: 2s;
     animation-iteration-count: initial;
-}
+  }

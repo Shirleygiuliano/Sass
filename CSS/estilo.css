@@ -1,83 +1,41 @@
-body {
+/* color para el fondo */
+body, .padre1 {
   background-color: #212121; }
 
-/* color para el fondo */
-* {
-  padding: 0.25%;
-  margin: 0.22%; }
+.ancla {
+  text-decoration: solid;
+  font-size: medium;
+  text-transform: uppercase; }
 
 /* TITULO */
-.padre1 {
-  font-size: 4rem;
-  background: #4b0b0b;
-  background: linear-gradient(180deg, #4b0b0b 66%, #212121 80%);
-  height: 150px;
-  width: 1458px;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: space-between; }
-
-.logo {
-  border-radius: 200px;
-  justify-content: left; }
-
-.instagram {
-  justify-content: space-around; }
+.padre1, .navbar-expand-lg .bg-light {
+  background-color: linear-gradient(180deg, #a38d8d 6%, #212121 50%); }
 
 /* BOTONES DE MENU */
-.padre2 {
-  display: flex;
-  justify-content: space-evenly;
-  font-family: Arial, Helvetica, sans-serif;
+.padre2, .row {
   list-style: none; }
 
-.novedades {
-  background-color: #A32020;
-  height: 25px;
-  width: 205px;
-  border: #AA2D2D solid;
-  border-radius: 4px; }
+.mb-3 {
+  height: 40px;
+  width: 540px; }
 
-.noticias {
+.novedades, col {
   background-color: #A32020;
-  height: 25px;
-  width: 205px;
-  border: #AA2D2D solid;
-  border-radius: 4px; }
+  border-radius: 4px;
+  height: 40px;
+  width: 20px; }
 
-.recomendados {
+.noticias, col, .recomendados, col, .estrenos, col, .nosotros, col {
   background-color: #A32020;
-  height: 25px;
-  width: 205px;
-  border: #AA2D2D solid;
-  border-radius: 4px; }
-
-.estrenos {
-  background-color: #A32020;
-  height: 25px;
-  width: 205px;
-  border: #AA2D2D solid;
-  border-radius: 4px; }
-
-.nosotros {
-  background-color: #A32020;
-  height: 25px;
-  width: 205px;
-  border: #AA2D2D solid;
   border-radius: 4px; }
 
 /* PORTADA*/
-.imgporta:hover {
-  display: flex;
-  justify-content: center;
-  height: 1000px;
-  width: 1400px;
+.fotito:hover, text-center, img-fluid {
   border-radius: 20px;
   filter: grayscale(70%); }
 
-.imgporta {
-  transition: all 0,5s; }
+.fotito:hover, text-center, img-fluid {
+  transition: all 0, 5s; }
 
 /* Tarjetas*/
 .tarjetas {
@@ -86,71 +44,23 @@ body {
   justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif; }
 
-.barbie {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 265px;
-  border-radius: 20px; }
-
-.buss {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 265px;
-  border-radius: 20px; }
-
-.stranger {
+.barbie, .buss, .stranger, .thor, .black, .marvel {
   background: linear-gradient(#A32020, #212121);
   height: 280px;
   width: 265px;
   border-radius: 20px; }
 
 /*segundas tarjetas*/
-.thor {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 265px;
-  border-radius: 20px; }
-
-.black {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 265px;
-  border-radius: 20px; }
-
-.marvel {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 265px;
-  border-radius: 20px; }
-
 h2 {
-  margin: auto; }
+  color: white; }
 
 /* caja de footer*/
-.bajada {
-  background-color: #3C2323;
-  height: 380px;
-  width: 1460px; }
+footer {
+  background-color: #3C2323; }
 
 /* subcripcion */
-.suscrip {
-  display: flex;
-  flex-direction: column;
-  justify-content: right; }
-
-.suscribite {
-  background-color: #BB1E1E;
-  height: 40px;
-  width: 200px;
-  border-radius: 8px; }
-
-.email {
-  background-color: #d8dbdd;
-  backface-visibility: initial;
-  height: 40px;
-  width: 200px;
-  border-radius: 8px;
-  justify-content: center; }
+.container-fluid, .bajo, .button {
+  color: #3C2323; }
 
 hr {
   background-color: #737373;
@@ -208,37 +118,7 @@ iframe {
   justify-content: center; }
 
 /* TARJETAS DE ESTRENOS*/
-.minio {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.only {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.anillo {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.thorr {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.lista {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.strange {
+.minio, .only, .anillo, .thorr, .lista, .strange {
   background: linear-gradient(#A32020, #212121);
   height: 280px;
   width: 365px;
@@ -254,37 +134,7 @@ iframe {
   justify-content: center; }
 
 /* TARJETAS DE RECOMENDADOS*/
-.corea {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.hbo {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.estafa {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.hbom {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.suse {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.cosso {
+.corea, .hbo, .estafa, .hbom, .suse, .cosso {
   background: linear-gradient(#A32020, #212121);
   height: 280px;
   width: 365px;
@@ -296,37 +146,7 @@ iframe {
   justify-content: center; }
 
 /* TARJETAS DE NOTICIAS*/
-.spenc {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.crista {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.mue {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.cmo {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.xx {
-  background: linear-gradient(#A32020, #212121);
-  height: 280px;
-  width: 365px;
-  border-radius: 20px; }
-
-.our {
+.spenc, .crista, .mue, .cmo, .xx, .our {
   background: linear-gradient(#A32020, #212121);
   height: 280px;
   width: 365px;
@@ -341,17 +161,13 @@ ul li a {
   color: white;
   display: flex;
   justify-content: center; }
-
-ul li a:hover {
-  text-decoration: none;
-  color: red; }
+  ul li a:hover {
+    text-decoration: none;
+    color: red; }
 
 main .tarjetas, img p {
   display: flex;
-  justify-content: space-between 0, 0, 2, 8; }
-
-.fotito:hover {
-  background-color: #737373; }
+  justify-content: space-between; }
 
 @keyframes cine {
   0% {
@@ -359,7 +175,7 @@ main .tarjetas, img p {
   100% {
     opacity: 100%; } }
 
-.padre1, .cine {
+.padre1 .row {
   animation-name: cine;
   animation-duration: 2s;
   animation-iteration-count: initial; }
